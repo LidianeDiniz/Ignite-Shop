@@ -1,6 +1,6 @@
 import { styled } from "..";
 
-export const ProductConatiner = styled("main", {
+export const ProductContainer = styled("main", {
   display: "grid",
   gridTemplateColumns: "1fr 1fr",
   alignItems: "stretch",
@@ -9,7 +9,7 @@ export const ProductConatiner = styled("main", {
   maxWidth: 1180,
 });
 
-export const ImageCoonatiner = styled("div", {
+export const ImageContainer = styled("div", {
   width: "100%",
   maxWidth: 576,
   height: 656,
