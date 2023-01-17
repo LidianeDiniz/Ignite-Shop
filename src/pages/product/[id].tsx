@@ -1,5 +1,5 @@
 import { ProductDetails, ImageContainer, ProductContainer } from '../../styles/pages/product';
-import { GetServerSideProps, GetStaticPaths, GetStaticProps } from 'next';
+import { GetStaticPaths, GetStaticProps } from 'next';
 import { stripe } from '../../lib/stripe';
 import Stripe from 'stripe';
 import Image from 'next/image';
@@ -17,6 +17,9 @@ interface ProductProps {
   
 
 export default function Product({product}: ProductProps){
+  function handleBuyProduct(){
+    console.log(product.defaultPriceId);
+  }
 
     // const {isFallback} = userRouter()
 
@@ -36,7 +39,7 @@ export default function Product({product}: ProductProps){
 
           <p>{product.description}</p>
 
-          <button >
+          <button onClick={handleBuyProduct}>
             Comprar agora
           </button>
         </ProductDetails>
@@ -74,7 +77,8 @@ export const getStaticProps: GetStaticProps <any, {id: string}>= async ({params}
                 style: 'currency',
                 currency: 'BRL',
             }).format(price.unit_amount / 100),
-            description: product.description
+            description: product.description,
+            defaultPriceId: price.id,
           }
         },
         revalidate: 60 * 60 * 1 // 1 hours
