@@ -17,7 +17,13 @@ interface ProductProps {
   
 
 export default function Product({product}: ProductProps){
-   
+
+    // const {isFallback} = userRouter()
+
+    // if(isFallback){
+    //     return <p>Loading</p>
+    // } // para usar quando um fallback true que é mais recomendado crie um fallback true e crie um loading, para uma experiência melhor do usuário. No caso do fallback bloking e false não precisa usar 
+
     return (
         <ProductContainer>
         <ImageContainer>
