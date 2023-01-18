@@ -3,7 +3,7 @@ import Head from "next/head";
 import { HomeComatainer, Product } from "../styles/pages/home";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
-import { GetStaticProps } from "next";
+import { GetStaticProps, NextPage } from "next";
 import { stripe } from "../lib/stripe";
 import Link from "next/link";
 import Stripe from "stripe";
@@ -17,7 +17,7 @@ interface HomeProps {
   }[];
 }
 
-export default function Home({ products }: HomeProps) {
+const Home: NextPage<HomeProps>= ({ products })=> {
   const [sliderRef] = useKeenSlider({
     slides: {
       perView: 2.45,
@@ -83,3 +83,5 @@ export const getStaticProps: GetStaticProps = async ({}) => {
     revalidate: 60 * 60 * 2, //a cada duas horas back-end atualiza os dados:
   };
 };
+
+export default Home;

@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 globalStyles();
 
-export default function App({ Component, pageProps }: AppProps) {
+const App =({ Component, pageProps }: AppProps) => {
   return (
     <Container>
 
@@ -20,3 +20,5 @@ export default function App({ Component, pageProps }: AppProps) {
 
   )
 }
+
+export default App;

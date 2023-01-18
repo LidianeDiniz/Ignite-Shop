@@ -4,7 +4,7 @@ import {
   ProductContainer,
 } from "../../styles/pages/product";
 import Head from "next/head";
-import { GetStaticPaths, GetStaticProps } from "next";
+import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import { stripe } from "../../lib/stripe";
 import Stripe from "stripe";
 import Image from "next/image";
@@ -22,7 +22,7 @@ interface ProductProps {
   };
 }
 
-export default function Product({ product }: ProductProps) {
+  const Product: NextPage<ProductProps> = ({ product }) => {
   const [isCreatingCheckoutSession, setIsCreatingCheckoutSession] =
     useState(false);
 
@@ -116,3 +116,5 @@ export const getStaticProps: GetStaticProps<any, { id: string }> = async ({
     revalidate: 60 * 60 * 1, // 1 hours
   };
 };
+
+export default Product;

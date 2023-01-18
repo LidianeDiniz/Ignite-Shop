@@ -1,4 +1,4 @@
-import { GetServerSideProps } from "next";
+import { GetServerSideProps, NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
 import Stripe from "stripe";
@@ -14,7 +14,7 @@ interface SuccessProps {
   };
 }
 
-export default function Success({ costumerName, product }: SuccessProps) {
+const Success: NextPage<SuccessProps> = ({ costumerName, product }) => {
   return (
     <>
       <Head>
@@ -70,3 +70,5 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
     },
   };
 };
+
+export default Success;
