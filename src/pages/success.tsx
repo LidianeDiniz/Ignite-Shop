@@ -11,7 +11,7 @@ interface SuccessProps {
   product: {
     name: string;
     imageUrl: string;
-  }
+  };
 }
 
 export default function Success({ costumerName, product }: SuccessProps) {
@@ -31,31 +31,30 @@ export default function Success({ costumerName, product }: SuccessProps) {
         </ImageContainer>
 
         <p>
-          Uhuul <strong>{costumerName}</strong>, sua <strong>{product.name}</strong> já está a caminho da sua casa.
+          Uhuul <strong>{costumerName}</strong>, sua{" "}
+          <strong>{product.name}</strong> já está a caminho da sua casa.
         </p>
 
-        <Link href="/">
-          Voltar ao catálogo
-        </Link>
+        <Link href="/">Voltar ao catálogo</Link>
       </SuccessContainer>
     </>
-  )
+  );
 }
 
 export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   if (!query.session_id) {
     return {
       redirect: {
-        destination: '/',
+        destination: "/",
         permanent: false,
-      }
-    }
+      },
+    };
   }
 
   const sessionId = String(query.session_id);
 
   const session = await stripe.checkout.sessions.retrieve(sessionId, {
-    expand: ['line_items', 'line_items.data.price.product']
+    expand: ["line_items", "line_items.data.price.product"],
   });
 
   const costumerName = session.customer_details.name;
@@ -66,8 +65,8 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
       costumerName,
       product: {
         name: product.name,
-        imageUrl: product.images[0]
-      }
-    }
-  }
-}
+        imageUrl: product.images[0],
+      },
+    },
+  };
+};
