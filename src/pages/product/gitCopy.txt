@@ -1,0 +1,32 @@
+
+##git
+
+
+0000000000000000000000000000000000000000 bbc7a1677bde3f3a437e5ec74bac7dc67b4a1054 lidiane <lidianefernandesdiniz.lfd@gmail.com> 1673051117 -0300	update by push
+bbc7a1677bde3f3a437e5ec74bac7dc67b4a1054 09ec93072ae14c290a3e139429caafa243aff001 lidiane <lidianefernandesdiniz.lfd@gmail.com> 1673053323 -0300	update by push
+09ec93072ae14c290a3e139429caafa243aff001 798779de722a1ebaf05c62ac9486c36a176f8470 lidiane <lidianefernandesdiniz.lfd@gmail.com> 1673130540 -0300	update by push
+798779de722a1ebaf05c62ac9486c36a176f8470 19164713689958427809cc94353f128f8acdc70c lidiane <lidianefernandesdiniz.lfd@gmail.com> 1673303423 -0300	update by push
+19164713689958427809cc94353f128f8acdc70c 367c267424740c02583acd7773c1661f3c30e8ce lidiane <lidianefernandesdiniz.lfd@gmail.com> 1673310628 -0300	update by push
+367c267424740c02583acd7773c1661f3c30e8ce 9ce9ce99ddeee9309d2a0b0eef72f281404acb52 lidiane <lidianefernandesdiniz.lfd@gmail.com> 1673474653 -0300	update by push
+9ce9ce99ddeee9309d2a0b0eef72f281404acb52 844b0b6a2552667f0d9f247c61660056e382e9ea lidiane <lidianefernandesdiniz.lfd@gmail.com> 1673554467 -0300	update by push
+844b0b6a2552667f0d9f247c61660056e382e9ea ca8ed859e4dca46c77fece6106488928f39f9eaa lidiane <lidianefernandesdiniz.lfd@gmail.com> 1673566724 -0300	update by push
+ca8ed859e4dca46c77fece6106488928f39f9eaa 9aa74272840bee3a1c0bc3ce89db136c0b0eaa77 lidiane <lidianefernandesdiniz.lfd@gmail.com> 1673575367 -0300	update by push
+9aa74272840bee3a1c0bc3ce89db136c0b0eaa77 74e9650816a02317ddfaa4a6b77d530c49eafe00 lidiane <lidianefernandesdiniz.lfd@gmail.com> 1673652120 -0300	update by push
+74e9650816a02317ddfaa4a6b77d530c49eafe00 500572538ddad863a10cb9961b36aaef8086a62f lidiane <lidianefernandesdiniz.lfd@gmail.com> 1673900283 -0300	update by push
+500572538ddad863a10cb9961b36aaef8086a62f 11a9c7fdcacfde072b370a10931980ed2e6764ca lidiane <lidianefernandesdiniz.lfd@gmail.com> 1673918449 -0300	update by push
+11a9c7fdcacfde072b370a10931980ed2e6764ca f91fd51d0617c31a99124c5a5530ec9baffe65d5 lidiane <lidianefernandesdiniz.lfd@gmail.com> 1673980964 -0300	update by push
+f91fd51d0617c31a99124c5a5530ec9baffe65d5 c2ae3344a7ebaa87db63ff795c7049a07066d982 lidiane <lidianefernandesdiniz.lfd@gmail.com> 1673986749 -0300	update by push
+c2ae3344a7ebaa87db63ff795c7049a07066d982 3cbb4830ccc46ce48c13259cd2ece1855b7b3567 lidiane <lidianefernandesdiniz.lfd@gmail.com> 1673989154 -0300	update by push
+3cbb4830ccc46ce48c13259cd2ece1855b7b3567 e7d6c005ac440eea8a6faabab998b83000a90b43 lidiane <lidianefernandesdiniz.lfd@gmail.com> 1673991429 -0300	update by push
+e7d6c005ac440eea8a6faabab998b83000a90b43 c339177b989f67710ba830252220c087a55baee0 lidiane <lidianefernandesdiniz.lfd@gmail.com> 1674002588 -0300	update by push
+c339177b989f67710ba830252220c087a55baee0 22e2139e9193a39b96c38405828ddaf56e19aee4 lidiane <lidianefernandesdiniz.lfd@gmail.com> 1674065532 -0300	update by push
+22e2139e9193a39b96c38405828ddaf56e19aee4 911f29c61b1f44fe212783ecd874bf100c6f2424 lidiane <lidianefernandesdiniz.lfd@gmail.com> 1674067659 -0300	fetch: fast-forward
+911f29c61b1f44fe212783ecd874bf100c6f2424 5f64e3a0659d71bce5e5955ecb584cba580d84fb lidiane <lidianefernandesdiniz.lfd@gmail.com> 1674071824 -0300	fetch: fast-forward
+5f64e3a0659d71bce5e5955ecb584cba580d84fb a8e8c33081271599d2ed7aa70954a6f57e47518a lidiane <lidianefernandesdiniz.lfd@gmail.com> 1674071968 -0300	update by push
+a8e8c33081271599d2ed7aa70954a6f57e47518a e0070f3b954541670a323041a42ccef28a65f3c3 lidiane <lidianefernandesdiniz.lfd@gmail.com> 1674072862 -0300	update by push
+e0070f3b954541670a323041a42ccef28a65f3c3 d013f4b40e1a51c10ed491c89e5cf3644beb0da6 lidiane <lidianefernandesdiniz.lfd@gmail.com> 1674073338 -0300	update by push
+d013f4b40e1a51c10ed491c89e5cf3644beb0da6 1f6080fa7d5fc54221ca070a6ee67d943a63ca0c lidiane <lidianefernandesdiniz.lfd@gmail.com> 1674076253 -0300	update by push
+1f6080fa7d5fc54221ca070a6ee67d943a63ca0c 67dbf969e2bc493f5e20cb97b22ed77267535598 lidiane <lidianefernandesdiniz.lfd@gmail.com> 1674081677 -0300	update by push
+67dbf969e2bc493f5e20cb97b22ed77267535598 40c3efe4b44ee037adf71d3fb53338d796de25bc lidiane <lidianefernandesdiniz.lfd@gmail.com> 1674083484 -0300	update by push
+40c3efe4b44ee037adf71d3fb53338d796de25bc 1c05dd44bdacd5ecf6189290ec944b614fe6ce70 lidiane <lidianefernandesdiniz.lfd@gmail.com> 1674083975 -0300	update by push
+1c05dd44bdacd5ecf6189290ec944b614fe6ce70 12aa4ffb9c8b033e076d54c9f7425b23315c3ee4 lidiane <lidianefernandesdiniz.lfd@gmail.com> 1674084012 -0300	update by push
