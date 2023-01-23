@@ -52,21 +52,6 @@ Inicie o servidor
 
 
 
-
-
-## Instalação
-
-Instalando o projeto:
-
-```bash
-  npm install 
-    
-  ou
-
-  yarn install
-  clone este repositótio : https://github.com/LidianeDiniz/Ignite-Shop.git
-```
-    
 ## Documentação
 Para saber mais sobre o Next.js, consulte os seguintes recursos:
 
