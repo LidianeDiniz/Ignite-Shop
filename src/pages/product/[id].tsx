@@ -10,6 +10,7 @@ import Stripe from "stripe";
 import Image from "next/image";
 import axios from "axios";
 import { useState } from "react";
+import { useRouter } from "next/router";
 
 interface ProductProps {
   product: {
@@ -23,6 +24,8 @@ interface ProductProps {
 }
 
   const Product: NextPage<ProductProps> = ({ product }) => {
+    const { isFallback } = useRouter();
+
   const [isCreatingCheckoutSession, setIsCreatingCheckoutSession] =
     useState(false);
 
@@ -37,13 +40,17 @@ interface ProductProps {
       const { checkoutUrl } = response.data;
 
       window.location.href = checkoutUrl;
-    } catch (err) {
+    } catch  {
       //O melhor seria conectar com uma ferramenta de observabilidade (Datadog / Sentry)
 
       setIsCreatingCheckoutSession(false);
 
       alert("Falha ao redirecionar ao checkout");
     }
+  }
+
+  if (isFallback) {
+    return <p>Loading...</p>;
   }
 
   // const {isFallback} = userRouter()
