@@ -89,9 +89,29 @@ interface ProductProps {
 
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
-    paths: [{ params: { id: "prod_N8o5OnhJU3Jloz" } }],
-
-    fallback: "blocking",
+    paths: [
+      {
+        params: {
+          id: "prod_N8o5OnhJU3Jloz",
+        },
+      },
+      {
+        params: {
+          id: "prod_N8o54cqbV9NMDZ",
+        },
+      },
+      {
+        params: {
+          id: "prod_N8o4A0BgYqoYDs",
+        },
+      },
+      {
+        params: {
+          id: "prod_N8o3WrbGM0QjjT",
+        },
+      },
+    ],
+    fallback: true,
   };
 };
 
