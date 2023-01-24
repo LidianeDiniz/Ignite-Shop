@@ -55,7 +55,7 @@ Inicie o servidor
 ## Documentação
 Para saber mais sobre o Next.js, consulte os seguintes recursos:
 
-[Documentação Next.js](https://nextjs.org/docs)- saiba mai sobre os recursos e a API do Next.js.
+[Documentação Next.js](https://nextjs.org/docs)- saiba mais sobre os recursos e a API do Next.js.
 
 
 [Learn Next.js](https://nextjs.org/learn/foundations/about-nextjs) - um tutorial interativo do Next.js.
